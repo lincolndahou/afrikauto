@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 50" height="42" fill="none">
+  <g transform="translate(4, 4)">
+    <circle cx="21" cy="21" r="21" fill="#2ee646"/>
+    <path d="M21 8 L9 34 L15 34 L17.5 28 L24.5 28 L27 34 L33 34 Z M21 14.5 L23.5 23 L18.5 23 Z" fill="#ffffff"/>
+  </g>
+  <text x="60" y="32" font-family="Plus Jakarta Sans, Inter, system-ui, sans-serif" font-size="22" font-weight="900" letter-spacing="3" fill="#111315">AFRIK</text>
+  <text x="148" y="32" font-family="Plus Jakarta Sans, Inter, system-ui, sans-serif" font-size="22" font-weight="900" letter-spacing="3" fill="#2ee646">AUTO</text>
+</svg>

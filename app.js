@@ -1,16 +1,169 @@
 /**
- * KH-AUTO - Plateforme Automobile & Concessionnaire
+ * AFRIK AUTO - Plateforme Automobile & Concessionnaire
  * Base de données exhaustive & Contrôleur multi-pages (Accueil, Catalogue, Véhicule)
  */
 
 const VEHICLES_DATABASE = {
+  "toyota-land-cruiser-prado": {
+    "id": "toyota-land-cruiser-prado",
+    "name": "TOYOTA LAND CRUISER PRADO",
+    "brand": "Toyota",
+    "edition": "TXL Prestige 4x4 · Modèle 2025 - 2026",
+    "priceFrom": "48 500 000 FCFA",
+    "priceCIF": "44 000 000 FCFA (Coût + Fret + Assurance inclus)",
+    "category": "offroad",
+    "categoryLabel": "Grand SUV 4x4 Luxe & Tout-Terrain",
+    "badge": "Vente & Location VIP · 7 Places",
+    "images": [
+      "assets/images/cars/toyota-land-cruiser-prado/photo-1.jpg",
+      "assets/images/cars/toyota-land-cruiser-prado/photo-2.jpg",
+      "assets/images/cars/toyota-land-cruiser-prado/photo-3.jpg",
+      "assets/images/cars/toyota-land-cruiser-prado/photo-4.jpg"
+    ],
+    "stats": {
+      "accel": "8.1 s",
+      "power": "281 ch (Turbo)",
+      "speed": "210 km/h",
+      "autonomy": "950 km autonomie"
+    },
+    "reasons": [
+      "La référence absolue de robustesse et de fiabilité légendaire sur les routes africaines.",
+      "Transmission intégrale 4x4 permanente avec blocage de différentiel et réducteur de franchissement.",
+      "Habitacle 7 places en cuir ventilé avec double climatisation automatique tri-zone.",
+      "Écran multimédia tactile 12.3 pouces compatible Apple CarPlay sans fil et Android Auto.",
+      "Disponible immédiatement à la vente ou en location VIP avec ou sans chauffeur."
+    ],
+    "fullSpecs": {
+      "Dimensions": "4 925 × 1 980 × 1 870 mm",
+      "Empattement": "2 850 mm",
+      "Garde au sol": "220 mm (Pack Tout-Terrain Rehaussé)",
+      "Moteur": "2.4L Turbo Essence i-FORCE / 2.8L D-4D Diesel",
+      "Transmission": "Automatique Direct Shift 8 rapports 4WD",
+      "Puissance / Couple": "281 ch / 430 N·m de couple",
+      "Sécurité": "Pack Toyota Safety Sense 3.0, 8 Airbags, Caméras 360° Multi-Terrain"
+    }
+  },
+  "toyota-rav4-hybrid": {
+    "id": "toyota-rav4-hybrid",
+    "name": "TOYOTA RAV4 HYBRID",
+    "brand": "Toyota",
+    "edition": "Limited AWD-i Hybride Éco · Édition 2025",
+    "priceFrom": "23 900 000 FCFA",
+    "priceCIF": "21 500 000 FCFA (Coût + Fret inclus)",
+    "category": "hybrid",
+    "categoryLabel": "SUV Familial Hybride Économique",
+    "badge": "Hybride 4.5 L/100 km · Disponible",
+    "images": [
+      "assets/images/cars/toyota-rav4-hybrid/photo-1.jpg",
+      "assets/images/cars/toyota-rav4-hybrid/photo-2.jpg",
+      "assets/images/cars/toyota-rav4-hybrid/photo-3.jpg",
+      "assets/images/cars/toyota-rav4-hybrid/photo-4.jpg"
+    ],
+    "stats": {
+      "accel": "7.8 s",
+      "power": "222 ch Hybride",
+      "speed": "190 km/h",
+      "autonomy": "1 100 km autonomie"
+    },
+    "reasons": [
+      "Consommation record de seulement 4.5 L / 100 km idéale pour réduire vos dépenses de carburant.",
+      "Système hybride Toyota auto-rechargeable de 5e génération sans besoin de prise électrique.",
+      "Excellente valeur de revente sur le marché de l'occasion en Afrique de l'Ouest.",
+      "Grand confort de conduite avec transmission intégrale intelligente AWD-i.",
+      "Disponible en achat direct, reprise de votre ancien véhicule ou location mensuelle."
+    ],
+    "fullSpecs": {
+      "Dimensions": "4 600 × 1 855 × 1 685 mm",
+      "Empattement": "2 690 mm",
+      "Moteur": "2.5L 4 cylindres Dynamic Force + Double Moteur Électrique",
+      "Puissance combinée": "222 ch (163 kW)",
+      "Transmission": "Automatique E-CVT séquentielle AWD-i",
+      "Consommation": "4.5 L / 100 km mixte",
+      "Équipements": "Toit ouvrant, Sellerie cuir SofTex, Hayon électrique mains libres"
+    }
+  },
+  "hyundai-tucson-2025": {
+    "id": "hyundai-tucson-2025",
+    "name": "HYUNDAI TUCSON",
+    "brand": "Hyundai",
+    "edition": "Prestige Edition N-Line · Modèle 2025",
+    "priceFrom": "21 800 000 FCFA",
+    "priceCIF": "19 500 000 FCFA (Coût + Fret inclus)",
+    "category": "compact",
+    "categoryLabel": "SUV Moderne & Statutaire",
+    "badge": "Design Futuriste · Boîte Auto",
+    "images": [
+      "assets/images/cars/hyundai-tucson-2025/photo-1.jpg",
+      "assets/images/cars/hyundai-tucson-2025/photo-2.jpg",
+      "assets/images/cars/hyundai-tucson-2025/photo-3.jpg",
+      "assets/images/cars/hyundai-tucson-2025/photo-4.jpg"
+    ],
+    "stats": {
+      "accel": "8.0 s",
+      "power": "190 ch",
+      "speed": "200 km/h",
+      "autonomy": "880 km autonomie"
+    },
+    "reasons": [
+      "Design avant-gardiste avec calandre à feux de jour paramétriques dissimulés.",
+      "Double écran panoramique incurvé de 12.3 pouces avec système de navigation tactile.",
+      "Excellente insonorisation de l'habitacle et suspension calibrée pour les routes africaines.",
+      "Garantie constructeur et pièces détachées disponibles rapidement.",
+      "Parfait pour la ville, les longs trajets et la location d'affaires."
+    ],
+    "fullSpecs": {
+      "Dimensions": "4 640 × 1 865 × 1 665 mm",
+      "Moteur": "2.0L / 1.6T SmartStream Injection Directe",
+      "Transmission": "Boîte automatique 8 rapports Shiftronic",
+      "Puissance": "190 ch à 6 000 tr/min",
+      "Sécurité": "Hyundai SmartSense ADAS L2, Caméras 360°, Surveillance angle mort"
+    }
+  },
+  "nissan-patrol-v8": {
+    "id": "nissan-patrol-v8",
+    "name": "NISSAN PATROL TITANIUM",
+    "brand": "Nissan",
+    "edition": "Titanium V8 Prestige 4x4 · Édition Grand Luxe",
+    "priceFrom": "56 000 000 FCFA",
+    "priceCIF": "51 000 000 FCFA (Coût + Fret inclus)",
+    "category": "familial",
+    "categoryLabel": "Grand SUV Prestige 8 Places",
+    "badge": "V8 400 ch · Luxe VIP 8 Places",
+    "images": [
+      "assets/images/cars/nissan-patrol-v8/photo-1.jpg",
+      "assets/images/cars/nissan-patrol-v8/photo-2.jpg",
+      "assets/images/cars/nissan-patrol-v8/photo-3.jpg",
+      "assets/images/cars/nissan-patrol-v8/photo-4.jpg"
+    ],
+    "stats": {
+      "accel": "6.6 s",
+      "power": "400 ch (V8)",
+      "speed": "210 km/h",
+      "autonomy": "140 L de réservoir"
+    },
+    "reasons": [
+      "Le vaisseau amiral par excellence pour personnalités, autorités et chefs d'entreprises.",
+      "Moteur V8 atmosphérique de 400 chevaux délivrant une puissance souveraine.",
+      "Véritable salon roulant 8 places en cuir matelassé avec écrans multimédia arrière.",
+      "Suspension hydraulique HBMC pour un confort royal sur tous types de pistes.",
+      "Idéal pour l'achat prestige ou la location VIP pour événements et escortes."
+    ],
+    "fullSpecs": {
+      "Dimensions": "5 165 × 1 995 × 1 940 mm",
+      "Empattement": "3 075 mm",
+      "Moteur": "5.6L V8 VVEL DIG Essence (400 ch / 560 N·m)",
+      "Transmission": "Boîte automatique 7 rapports avec mode séquentiel et réducteur 4L/4H",
+      "Réservoir": "140 Litres grande autonomie",
+      "Équipements": "Sonorisation Bose 13 HP, Frigo de console centrale, Double toit ouvrant"
+    }
+  },
   "changan-uni-z-phev": {
     "id": "changan-uni-z-phev",
     "name": "CHANGAN UNI-Z PHEV",
     "brand": "Changan",
-    "edition": "BlueCore iDD Hybride Rechargeable · Édition Vaisseau 2026",
+    "edition": "BlueCore iDD Hybride Rechargeable · Édition 2026",
     "priceFrom": "12 900 000 FCFA",
-    "priceCIF": "11 700 000 FCFA (Coût + Assurance + Fret inclus)",
+    "priceCIF": "11 700 000 FCFA (Coût + Fret inclus)",
     "category": "hybrid",
     "categoryLabel": "SUV Compact Hybride Rechargeable",
     "badge": "Hybride Rechargeable 130 km",
@@ -27,101 +180,29 @@ const VEHICLES_DATABASE = {
       "autonomy": "130 km élec · 1 200 km total"
     },
     "reasons": [
-      "130 km d'autonomie 100% électrique CLTC pour tous vos trajets quotidiens sans consommer d'essence.",
-      "Consommation combinée record de 3,06 L / 100 km grâce au groupe Nouvelle Baleine Bleue PHEV.",
-      "Recharge ultra-rapide DC : 30% à 80% en seulement 15 minutes.",
-      "Système de conduite intelligente ADAS L2 Tianshu avec caméras panoramiques 540°.",
-      "Grand cockpit digital avec écran tactile 14.6 pouces et toit panoramique ouvrant."
+      "130 km d'autonomie 100% électrique pour vos trajets quotidiens sans consommer d'essence.",
+      "Puissance combinée de 218 ch avec transmission E-CVT ultra fluide.",
+      "Cockpit numérique 14.6 pouces et système d'aide à la conduite ADAS L2.",
+      "Rapport qualité / équipements / prix imbattable sur le segment hybride.",
+      "Disponible à l'achat neuf ou en commande personnalisée."
     ],
-    "fullSpecs": [
-      {
-        "label": "Modèle",
-        "val": "Changan UNI-Z PHEV 2026 · Nouvelle Baleine Bleue"
-      },
-      {
-        "label": "Finition",
-        "val": "Édition Vaisseau — Finition Supérieure"
-      },
-      {
-        "label": "Constructeur",
-        "val": "Changan Automobile (长安汽车)"
-      },
-      {
-        "label": "Carrosserie",
-        "val": "SUV Compact Futuriste · 5 Portes · 5 Places"
-      },
-      {
-        "label": "Moteur thermique",
-        "val": "1.5L Atmosphérique 4 cylindres JL469Q1"
-      },
-      {
-        "label": "Moteur électrique",
-        "val": "Synchrone à aimant permanent ATDM68"
-      },
-      {
-        "label": "Puissance totale",
-        "val": "160 kW / 218 ch"
-      },
-      {
-        "label": "Couple total",
-        "val": "251 N·m"
-      },
-      {
-        "label": "Accélération",
-        "val": "0 à 100 km/h en 7,4 s"
-      },
-      {
-        "label": "Autonomie électrique",
-        "val": "130 km (Norme CLTC)"
-      },
-      {
-        "label": "Autonomie totale",
-        "val": "1 200 km"
-      },
-      {
-        "label": "Consommation",
-        "val": "1,3 L / 100 km (WLTC) · 3,06 L combinée"
-      },
-      {
-        "label": "Boîte de vitesses",
-        "val": "E-CVT Transmission électronique à variation continue"
-      },
-      {
-        "label": "Dimensions (L×l×H)",
-        "val": "4 730 × 1 890 × 1 680 mm"
-      },
-      {
-        "label": "Empattement",
-        "val": "2 795 mm"
-      },
-      {
-        "label": "Garde au sol",
-        "val": "183 mm (Renforcée)"
-      },
-      {
-        "label": "Volume du coffre",
-        "val": "638 L (jusqu'à 1 425 L banquette rabattue)"
-      },
-      {
-        "label": "Aides à la conduite",
-        "val": "ADAS L2 Tianshu · Régulateur adaptatif ACC · Vue 540°"
-      },
-      {
-        "label": "Pneumatiques",
-        "val": "245/50 R20 · Jantes alliage bicolores"
-      }
-    ]
+    "fullSpecs": {
+      "Dimensions": "4 730 × 1 890 × 1 680 mm",
+      "Moteur": "1.5L Atmosphérique + Moteur électrique synchrone",
+      "Puissance": "218 ch combinés",
+      "Autonomie": "130 km électrique CLTC / 1 200 km combiné"
+    }
   },
   "chery-tiggo-8-pro-phev": {
     "id": "chery-tiggo-8-pro-phev",
     "name": "CHERY TIGGO 8 PRO PHEV",
     "brand": "Chery",
-    "edition": "1.5T Hybride Rechargeable · Édition Champion 7 Places",
+    "edition": "Édition Champion 7 Places · Modèle 2026",
     "priceFrom": "13 800 000 FCFA",
-    "priceCIF": "13 500 000 FCFA (Coût + Assurance + Fret inclus)",
-    "category": "hybrid familial",
-    "categoryLabel": "Grand SUV 7 Places Hybride Rechargeable",
-    "badge": "Hybride 7 Places 326 ch",
+    "priceCIF": "13 500 000 FCFA",
+    "category": "familial",
+    "categoryLabel": "Grand SUV Prestige 7 Places",
+    "badge": "7 Places Hybride 326 ch",
     "images": [
       "assets/images/cars/chery-tiggo-8-pro-phev/photo-1.png",
       "assets/images/cars/chery-tiggo-8-pro-phev/photo-2.png",
@@ -135,101 +216,63 @@ const VEHICLES_DATABASE = {
       "autonomy": "100 km élec · 1 050 km total"
     },
     "reasons": [
-      "Puissance combinée hors normes de 326 ch (240 kW) et 545 N·m de couple.",
-      "Véritable 7 places de grand luxe avec sellerie cuir chauffante et massante.",
-      "100 km d'autonomie en 100% électrique et plus de 1 000 km d'autonomie totale combinée.",
-      "Cockpit piloté par puce Qualcomm Snapdragon 8155 ultra-fluide.",
-      "Sécurité maximale : 10 airbags, structure en acier haute résistance et pack ADAS complet."
+      "Véritable 7 places grand luxe pour les grandes familles ou le transport VIP.",
+      "Motorisation hybride surpuissante de 326 ch avec triple motorisation DHT.",
+      "Sièges cuir massants et ventilés avec puce Qualcomm Snapdragon 8155.",
+      "Caméras panoramiques 360° et pack complet de sécurité active.",
+      "Garantie et service après-vente assurés par AFRIK AUTO."
     ],
-    "fullSpecs": [
-      {
-        "label": "Modèle",
-        "val": "Chery Tiggo 8 Pro PHEV Édition Champion"
-      },
-      {
-        "label": "Constructeur",
-        "val": "Chery Automobile (奇瑞汽车)"
-      },
-      {
-        "label": "Carrosserie",
-        "val": "Grand SUV Prestige 7 Places (2+3+2)"
-      },
-      {
-        "label": "Motorisation",
-        "val": "1.5T Turbo Essence + Double Moteur Électrique Synchrone"
-      },
-      {
-        "label": "Puissance combinée",
-        "val": "240 kW / 326 ch"
-      },
-      {
-        "label": "Couple combiné",
-        "val": "545 N·m"
-      },
-      {
-        "label": "Accélération",
-        "val": "0 à 100 km/h en 7,0 s"
-      },
-      {
-        "label": "Autonomie 100% Élec",
-        "val": "100 km (Norme CLTC)"
-      },
-      {
-        "label": "Autonomie totale",
-        "val": "1 050 km"
-      },
-      {
-        "label": "Boîte de vitesses",
-        "val": "DHT 3 rapports hybride dédiée"
-      },
-      {
-        "label": "Consommation",
-        "val": "1,7 L / 100 km (WLTC) · 5,5 L batterie vide"
-      },
-      {
-        "label": "Capacité batterie",
-        "val": "19,27 kWh Lithium Ternaire"
-      },
-      {
-        "label": "Temps de charge",
-        "val": "Charge rapide DC : 30% à 80% en 25 min"
-      },
-      {
-        "label": "Dimensions (L×l×H)",
-        "val": "4 745 × 1 860 × 1 747 mm"
-      },
-      {
-        "label": "Empattement",
-        "val": "2 710 mm"
-      },
-      {
-        "label": "Garde au sol",
-        "val": "185 mm"
-      },
-      {
-        "label": "Volume du coffre",
-        "val": "889 L (jusqu'à 1 930 L banquette rabattue)"
-      },
-      {
-        "label": "Aides à la conduite",
-        "val": "ADAS L2+ · Régulateur adaptatif ACC · Freinage auto · Vue 360°"
-      },
-      {
-        "label": "Pneumatiques",
-        "val": "235/55 R18 · Jantes alliage aérodynamiques"
-      }
-    ]
+    "fullSpecs": {
+      "Dimensions": "4 745 × 1 860 × 1 747 mm",
+      "Places": "7 places (2+3+2 modulables)",
+      "Moteur": "1.5T Turbo + Double Moteur Électrique Synchrone",
+      "Puissance": "326 ch / 545 N·m de couple"
+    }
+  },
+  "geely-galaxy-l7": {
+    "id": "geely-galaxy-l7",
+    "name": "GEELY GALAXY L7",
+    "brand": "Geely",
+    "edition": "Explorer Hypermile EM-i Luxe · Modèle 2025",
+    "priceFrom": "13 500 000 FCFA",
+    "priceCIF": "13 000 000 FCFA",
+    "category": "hybrid",
+    "categoryLabel": "SUV Futuriste & Ultra Confort",
+    "badge": "Hybride 1 370 km d'autonomie",
+    "images": [
+      "assets/images/cars/geely-galaxy-l7/photo-1.jpg",
+      "assets/images/cars/geely-galaxy-l7/photo-2.jpg",
+      "assets/images/cars/geely-galaxy-l7/photo-3.jpg"
+    ],
+    "stats": {
+      "accel": "7.5 s",
+      "power": "218 ch",
+      "speed": "178 km/h",
+      "autonomy": "1 370 km combiné"
+    },
+    "reasons": [
+      "Autonomie record de 1 370 km sur un seul plein de carburant.",
+      "Triple écran haute définition (conducteur, central et passager).",
+      "Siège passager Queen Seat avec repose-jambes électrique et massage intégré.",
+      "Technologie hybride NordThor de dernière génération.",
+      "Disponible à la vente immédiate ou sur commande spécifique."
+    ],
+    "fullSpecs": {
+      "Dimensions": "4 700 × 1 905 × 1 685 mm",
+      "Puissance": "218 ch / 338 N·m",
+      "Consommation": "2.67 L / 100 km"
+    }
   },
   "geely-cowboy-offroad": {
     "id": "geely-cowboy-offroad",
     "name": "GEELY COWBOY OFF ROAD",
     "brand": "Geely",
-    "edition": "1.5TD Turbo 181 ch · Édition Aventure Tout-Terrain 2025",
+    "edition": "Aventure Tout-Terrain Baroudeur · Édition 2025",
     "priceFrom": "11 200 000 FCFA",
-    "priceCIF": "11 200 000 FCFA (Coût + Assurance + Fret inclus)",
+    "priceCIF": "11 200 000 FCFA",
     "category": "offroad",
     "categoryLabel": "SUV Baroudeur Tout-Terrain",
-    "badge": "Pack Tout-Terrain Adventure",
+    "badge": "Look Baroudeur · 181 ch Turbo",
     "images": [
       "assets/images/cars/geely-cowboy-offroad/photo-1.png",
       "assets/images/cars/geely-cowboy-offroad/photo-2.png",
@@ -240,278 +283,31 @@ const VEHICLES_DATABASE = {
       "accel": "7.9 s",
       "power": "181 ch (133 kW)",
       "speed": "190 km/h",
-      "autonomy": "6.8 L / 100 km (Mixte)"
+      "autonomy": "750 km autonomie"
     },
     "reasons": [
-      "Look baroudeur exclusif avec galerie de toit adventure et projecteurs LED longue portée intégrés.",
-      "Moteur 1.5TD Turbo 181 ch vigoureux avec boîte automatique 7 rapports à double embrayage.",
-      "Garde au sol surélevée à 190 mm et boucliers de protection tout-terrain avant et arrière.",
-      "Cockpit digital futuriste avec écran tactile 14.6 pouces et système Flyme Auto.",
-      "Châssis et sécurité de très haute volée développés par le groupe Geely Auto."
+      "Pack complet tout-terrain avec galerie alu et projecteurs LED intégrés.",
+      "Garde au sol rehaussée de 190 mm et pneus tout-terrain tout temps.",
+      "Moteur 1.5 Turbo vif et transmission automatique 7DCT double embrayage.",
+      "Cockpit digital 14.6 pouces et caméras 540° avec vue sous le châssis.",
+      "Parfait pour les escapades, chantiers et trajets régionaux."
     ],
-    "fullSpecs": [
-      {
-        "label": "Modèle",
-        "val": "Geely Cowboy 2025 Aventure Off Road"
-      },
-      {
-        "label": "Constructeur",
-        "val": "Geely Auto Group (吉利汽车)"
-      },
-      {
-        "label": "Carrosserie",
-        "val": "SUV Compact Baroudeur · 5 Portes · 5 Places"
-      },
-      {
-        "label": "Moteur",
-        "val": "1.5TD Turbo Essence Injection Directe 4 cylindres"
-      },
-      {
-        "label": "Cylindrée",
-        "val": "1 499 cm³"
-      },
-      {
-        "label": "Puissance max",
-        "val": "181 ch (133 kW) à 5 500 tr/min"
-      },
-      {
-        "label": "Couple max",
-        "val": "290 N·m de 2 000 à 3 500 tr/min"
-      },
-      {
-        "label": "Accélération",
-        "val": "0 à 100 km/h en 7,9 s"
-      },
-      {
-        "label": "Vitesse maximale",
-        "val": "190 km/h"
-      },
-      {
-        "label": "Boîte de vitesses",
-        "val": "Automatique 7DCT Double Embrayage humide"
-      },
-      {
-        "label": "Transmission",
-        "val": "Traction avant avec contrôle de motricité tout-terrain"
-      },
-      {
-        "label": "Consommation mixte",
-        "val": "6,8 L / 100 km"
-      },
-      {
-        "label": "Dimensions (L×l×H)",
-        "val": "4 442 × 1 860 × 1 770 mm"
-      },
-      {
-        "label": "Empattement",
-        "val": "2 640 mm"
-      },
-      {
-        "label": "Garde au sol",
-        "val": "190 mm (Pack Tout-Terrain)"
-      },
-      {
-        "label": "Volume du coffre",
-        "val": "515 L (1 200 L sièges rabattus)"
-      },
-      {
-        "label": "Sécurité active",
-        "val": "ESP 9.3 · Freinage d'urgence · Caméras panoramiques 540°"
-      },
-      {
-        "label": "Pack Adventure",
-        "val": "Galerie de toit alu, projecteurs spot LED, sabots avant/arrière"
-      },
-      {
-        "label": "Pneumatiques",
-        "val": "225/55 R18 Tout-Terrain AT"
-      }
-    ]
-  },
-  "geely-cowboy-trendy": {
-    "id": "geely-cowboy-trendy",
-    "name": "GEELY COWBOY TRENDY",
-    "brand": "Geely",
-    "edition": "1.5TD Turbo 181 ch · Édition Trendy Urbaine 2025",
-    "priceFrom": "10 750 000 FCFA",
-    "priceCIF": "10 750 000 FCFA (Coût + Assurance + Fret inclus)",
-    "category": "offroad compact",
-    "categoryLabel": "SUV Urbain Baroudeur",
-    "badge": "Édition Urbaine & Baroudeur",
-    "images": [
-      "assets/images/cars/geely-cowboy-trendy/photo-1.png",
-      "assets/images/cars/geely-cowboy-trendy/photo-2.png",
-      "assets/images/cars/geely-cowboy-trendy/photo-3.png",
-      "assets/images/cars/geely-cowboy-trendy/photo-4.png"
-    ],
-    "stats": {
-      "accel": "7.9 s",
-      "power": "181 ch (133 kW)",
-      "speed": "190 km/h",
-      "autonomy": "6.6 L / 100 km (Mixte)"
-    },
-    "reasons": [
-      "Version urbaine et élégante du baroudeur Geely Cowboy.",
-      "Même motorisation puissante 1.5TD Turbo 181 ch.",
-      "Intérieur raffiné avec grand écran multimédia et insonorisation de qualité supérieure.",
-      "Excellente maniabilité et position de conduite surélevée très sécurisante."
-    ],
-    "fullSpecs": [
-      {
-        "label": "Modèle",
-        "val": "Geely Cowboy 2025 Édition Trendy"
-      },
-      {
-        "label": "Carrosserie",
-        "val": "SUV Urbain · 5 Portes · 5 Places"
-      },
-      {
-        "label": "Moteur",
-        "val": "1.5TD Turbo Essence 4 cylindres"
-      },
-      {
-        "label": "Puissance",
-        "val": "181 ch (133 kW) · 290 N·m"
-      },
-      {
-        "label": "Boîte",
-        "val": "Automatique 7DCT Double Embrayage"
-      },
-      {
-        "label": "0 – 100 km/h",
-        "val": "7,9 s"
-      },
-      {
-        "label": "Consommation",
-        "val": "6,6 L / 100 km"
-      },
-      {
-        "label": "Dimensions (L×l×H)",
-        "val": "4 360 × 1 830 × 1 670 mm"
-      },
-      {
-        "label": "Garde au sol",
-        "val": "180 mm"
-      },
-      {
-        "label": "Équipements",
-        "val": "Cockpit numérique 10.25\" + Écran central 14.6\" · Toit ouvrant"
-      },
-      {
-        "label": "Pneumatiques",
-        "val": "225/55 R18 · Jantes alliage"
-      }
-    ]
-  },
-  "geely-galaxy-l7": {
-    "id": "geely-galaxy-l7",
-    "name": "GEELY GALAXY L7",
-    "brand": "Geely",
-    "edition": "EM-i Hypermile Hybride Rechargeable · Édition Explorer 2025",
-    "priceFrom": "13 500 000 FCFA",
-    "priceCIF": "13 000 000 FCFA (Coût + Assurance + Fret inclus)",
-    "category": "hybrid",
-    "categoryLabel": "SUV Futuriste Hybride EM-i",
-    "badge": "Hybride EM-i 115 km",
-    "images": [
-      "assets/images/cars/geely-galaxy-l7/photo-1.jpg",
-      "assets/images/cars/geely-galaxy-l7/photo-2.jpg",
-      "assets/images/cars/geely-galaxy-l7/photo-3.jpg"
-    ],
-    "stats": {
-      "accel": "7.5 s",
-      "power": "218 ch (160 kW)",
-      "speed": "178 km/h",
-      "autonomy": "115 km élec · 1 370 km total"
-    },
-    "reasons": [
-      "Système hybride Geely NordThor EM-i avec efficacité thermique record de 46,5%.",
-      "115 km en mode pur électrique et consommation moyenne bluffante de 2,67 L / 100 km.",
-      "Cockpit futuriste avec triple écran : compteur 10.25\", écran central 13.2\" et écran passager 16.2\".",
-      "Châssis haute précision développé conjointement avec l'ingénierie européenne.",
-      "Sièges Queen Seat avec repose-jambes électrique et massage intégré."
-    ],
-    "fullSpecs": [
-      {
-        "label": "Modèle",
-        "val": "Geely Galaxy L7 EM-i Édition Explorer"
-      },
-      {
-        "label": "Constructeur",
-        "val": "Geely Auto (吉利银河)"
-      },
-      {
-        "label": "Carrosserie",
-        "val": "SUV Compact Futuriste · 5 Portes · 5 Places"
-      },
-      {
-        "label": "Moteur thermique",
-        "val": "1.5L NordThor Hybride 4 cylindres"
-      },
-      {
-        "label": "Puissance combinée",
-        "val": "160 kW / 218 ch"
-      },
-      {
-        "label": "Couple combiné",
-        "val": "338 N·m"
-      },
-      {
-        "label": "Accélération",
-        "val": "0 à 100 km/h en 7,5 s"
-      },
-      {
-        "label": "Autonomie électrique",
-        "val": "115 km (Norme CLTC)"
-      },
-      {
-        "label": "Consommation mixte",
-        "val": "2,67 L / 100 km"
-      },
-      {
-        "label": "Autonomie totale",
-        "val": "1 370 km"
-      },
-      {
-        "label": "Boîte de vitesses",
-        "val": "DHT 1 vitesse hybride dédiée"
-      },
-      {
-        "label": "Dimensions (L×l×H)",
-        "val": "4 700 × 1 905 × 1 685 mm"
-      },
-      {
-        "label": "Empattement",
-        "val": "2 785 mm"
-      },
-      {
-        "label": "Garde au sol",
-        "val": "175 mm"
-      },
-      {
-        "label": "Écrans",
-        "val": "Triple écran haute résolution (10.25\" + 13.2\" + 16.2\")"
-      },
-      {
-        "label": "Puce multimédia",
-        "val": "Qualcomm Snapdragon 8155 · OS Galaxy N OS"
-      },
-      {
-        "label": "Pneumatiques",
-        "val": "235/50 R19 · Jantes turbine bicolores"
-      }
-    ]
+    "fullSpecs": {
+      "Dimensions": "4 442 × 1 860 × 1 770 mm",
+      "Garde au sol": "190 mm Rehaussée",
+      "Moteur": "1.5T Turbo Essence 181 ch / 290 N·m"
+    }
   },
   "kaiyi-x3-pro": {
     "id": "kaiyi-x3-pro",
-    "name": "KAIYI X3 PRO LUXE",
+    "name": "KAIYI X3 PRO AUTOMATIQUE",
     "brand": "Kaiyi",
-    "edition": "1.5L Essence 116 ch · Boîte Automatique CVT 2025",
+    "edition": "Confort Urbain Automatique · Modèle 2025",
     "priceFrom": "7 900 000 FCFA",
-    "priceCIF": "7 650 000 FCFA (Coût + Assurance + Fret inclus)",
+    "priceCIF": "7 650 000 FCFA",
     "category": "compact",
-    "categoryLabel": "SUV Compact Urbain Automatique",
-    "badge": "Automatique Économique",
+    "categoryLabel": "SUV Urbain Économique",
+    "badge": "Le SUV Auto le + Accessible",
     "images": [
       "assets/images/cars/kaiyi-x3-pro/photo-1.png",
       "assets/images/cars/kaiyi-x3-pro/photo-2.png",
@@ -520,324 +316,33 @@ const VEHICLES_DATABASE = {
     ],
     "stats": {
       "accel": "10.5 s",
-      "power": "116 ch (85 kW)",
+      "power": "116 ch",
       "speed": "175 km/h",
-      "autonomy": "6.7 L / 100 km (Mixte)"
+      "autonomy": "750 km autonomie"
     },
     "reasons": [
-      "Le SUV automatique neuf 0 km au meilleur tarif d'importation mondiale.",
-      "Boîte automatique CVT souple, fiable et très agréable au quotidien.",
-      "Faible consommation de carburant (6.7 L/100) et gabarit urbain facile à garer.",
-      "Écran multimédia tactile 10.25 pouces avec connectivité smartphone et caméra de recul."
+      "Le SUV automatique neuf le plus économique et abordable du marché.",
+      "Boîte automatique CVT souple et moteur 1.5L essence robuste et simple d'entretien.",
+      "Écran multimédia tactile 10.25 pouces avec caméra de recul intégrée.",
+      "Idéal pour les trajets urbains quotidiens, taxis VTC ou véhicules d'entreprise.",
+      "Financement et facilités de paiement disponibles."
     ],
-    "fullSpecs": [
-      {
-        "label": "Modèle",
-        "val": "Kaiyi X3 Pro 2025 Luxe"
-      },
-      {
-        "label": "Carrosserie",
-        "val": "SUV Compact Urbain · 5 Portes · 5 Places"
-      },
-      {
-        "label": "Moteur",
-        "val": "1.5L Essence atmosphérique 4 cylindres"
-      },
-      {
-        "label": "Puissance",
-        "val": "116 ch (85 kW) à 6 150 tr/min"
-      },
-      {
-        "label": "Couple",
-        "val": "143 N·m à 4 000 tr/min"
-      },
-      {
-        "label": "Boîte de vitesses",
-        "val": "Automatique CVT (Variation continue séquentielle)"
-      },
-      {
-        "label": "Consommation mixte",
-        "val": "6,7 L / 100 km"
-      },
-      {
-        "label": "Dimensions (L×l×H)",
-        "val": "4 400 × 1 831 × 1 653 mm"
-      },
-      {
-        "label": "Empattement",
-        "val": "2 632 mm"
-      },
-      {
-        "label": "Garde au sol",
-        "val": "170 mm"
-      },
-      {
-        "label": "Volume du coffre",
-        "val": "480 L (1 100 L banquette rabattue)"
-      },
-      {
-        "label": "Pneumatiques",
-        "val": "215/60 R17 · Jantes aluminium"
-      }
-    ]
-  },
-  "kaiyi-x7-pro-7places": {
-    "id": "kaiyi-x7-pro-7places",
-    "name": "KAIYI X7 PRO 7 PLACES",
-    "brand": "Kaiyi",
-    "edition": "2.0TGDI Turbo 254 ch · Boîte Automatique 7DCT 2026",
-    "priceFrom": "12 600 000 FCFA",
-    "priceCIF": "10 800 000 FCFA (Coût + Assurance + Fret inclus)",
-    "category": "familial",
-    "categoryLabel": "Grand SUV 7 Places Familial",
-    "badge": "Grand SUV 7 Vraies Places",
-    "images": [
-      "assets/images/cars/kaiyi-x7-pro-7places/photo-1.jpg",
-      "assets/images/cars/kaiyi-x7-pro-7places/photo-2.jpg",
-      "assets/images/cars/kaiyi-x7-pro-7places/photo-3.jpg"
-    ],
-    "stats": {
-      "accel": "8.2 s",
-      "power": "197 ch / 290 N·m",
-      "speed": "200 km/h",
-      "autonomy": "7.3 L / 100 km (Mixte)"
-    },
-    "reasons": [
-      "Véritable disposition 7 places spacieuse pour les grandes familles et le transport VIP.",
-      "Motorisation 1.6T Turbo de 197 ch avec boîte automatique 7 rapports.",
-      "Climatisation arrière avec commandes séparées et buses aux rangées 2 et 3.",
-      "Modularité intégrale avec plancher plat banquettes rabattues."
-    ],
-    "fullSpecs": [
-      {
-        "label": "Modèle",
-        "val": "Kaiyi X7 Pro 2026 Édition 7 Places"
-      },
-      {
-        "label": "Carrosserie",
-        "val": "Grand SUV 7 Places (2+3+2) · 5 Portes"
-      },
-      {
-        "label": "Moteur",
-        "val": "1.6T Turbo Essence (197 ch / 290 N·m)"
-      },
-      {
-        "label": "Boîte de vitesses",
-        "val": "Automatique 7DCT"
-      },
-      {
-        "label": "Dimensions (L×l×H)",
-        "val": "4 710 × 1 890 × 1 705 mm"
-      },
-      {
-        "label": "Empattement",
-        "val": "2 745 mm"
-      },
-      {
-        "label": "Garde au sol",
-        "val": "185 mm"
-      },
-      {
-        "label": "Volume du coffre",
-        "val": "450 L en 7 places (1 500 L en 2 places)"
-      },
-      {
-        "label": "Équipements",
-        "val": "Double écran digital · Toit panoramique · Caméras 360°"
-      },
-      {
-        "label": "Pneumatiques",
-        "val": "235/55 R19 · Jantes sport"
-      }
-    ]
-  },
-  "kaiyi-x7-pro-mountain": {
-    "id": "kaiyi-x7-pro-mountain",
-    "name": "KAIYI X7 PRO MOUNTAIN",
-    "brand": "Kaiyi",
-    "edition": "1.6TGDI Turbo 197 ch · Boîte Automatique 7DCT 2026",
-    "priceFrom": "11 900 000 FCFA",
-    "priceCIF": "10 750 000 FCFA (Coût + Assurance + Fret inclus)",
-    "category": "offroad",
-    "categoryLabel": "Grand SUV Statutaire",
-    "badge": "Garde au sol 185 mm",
-    "images": [
-      "assets/images/cars/kaiyi-x7-pro-mountain/photo-1.jpg",
-      "assets/images/cars/kaiyi-x7-pro-mountain/photo-2.jpg",
-      "assets/images/cars/kaiyi-x7-pro-mountain/photo-3.jpg"
-    ],
-    "stats": {
-      "accel": "8.2 s",
-      "power": "197 ch (145 kW)",
-      "speed": "195 km/h",
-      "autonomy": "7.3 L / 100 km (Mixte)"
-    },
-    "reasons": [
-      "Moteur 1.6T Turbo de 197 ch puissant et coupleux développé en partenariat avec Chery.",
-      "Silhouette statutaire avec calandre cascade chromée imposante et signature lumineuse LED.",
-      "Habitacle spacieux avec sellerie cuir grand confort et finitions soignées.",
-      "Garde au sol de 185 mm assurant une excellente sérénité sur tous types de parcours.",
-      "Rapport volume / puissance / prix CIF imbattable sur le marché mondial."
-    ],
-    "fullSpecs": [
-      {
-        "label": "Modèle",
-        "val": "Kaiyi X7 Pro 2026 Édition Mountain"
-      },
-      {
-        "label": "Constructeur",
-        "val": "Kaiyi Auto (Yibin Kaiyi Automobile)"
-      },
-      {
-        "label": "Carrosserie",
-        "val": "Grand SUV Statutaire · 5 Portes · 5 Places"
-      },
-      {
-        "label": "Motorisation",
-        "val": "1.6T Turbo Essence Injection Directe ACTECO"
-      },
-      {
-        "label": "Cylindrée",
-        "val": "1 598 cm³"
-      },
-      {
-        "label": "Puissance max",
-        "val": "197 ch (145 kW) à 5 500 tr/min"
-      },
-      {
-        "label": "Couple max",
-        "val": "290 N·m de 2 000 à 4 000 tr/min"
-      },
-      {
-        "label": "Accélération",
-        "val": "0 à 100 km/h en 8,2 s"
-      },
-      {
-        "label": "Boîte de vitesses",
-        "val": "Automatique 7DCT Double Embrayage humide"
-      },
-      {
-        "label": "Transmission",
-        "val": "Traction avant (FWD)"
-      },
-      {
-        "label": "Consommation mixte",
-        "val": "7,3 L / 100 km"
-      },
-      {
-        "label": "Réservoir",
-        "val": "55 Litres"
-      },
-      {
-        "label": "Dimensions (L×l×H)",
-        "val": "4 710 × 1 890 × 1 705 mm"
-      },
-      {
-        "label": "Empattement",
-        "val": "2 745 mm"
-      },
-      {
-        "label": "Garde au sol",
-        "val": "185 mm (Renforcée)"
-      },
-      {
-        "label": "Volume du coffre",
-        "val": "580 L (jusqu'à 1 450 L banquette rabattue)"
-      },
-      {
-        "label": "Suspensions",
-        "val": "Avant MacPherson / Arrière Indépendante Multi-bras"
-      },
-      {
-        "label": "Équipements de série",
-        "val": "Double écran 12.3\" HD · Toit panoramique · Caméras 360° · Démarrage sans clé"
-      },
-      {
-        "label": "Pneumatiques",
-        "val": "235/55 R19 · Jantes sport aluminium"
-      }
-    ]
-  },
-  "kaiyi-x7-pro-terres": {
-    "id": "kaiyi-x7-pro-terres",
-    "name": "KAIYI X7 PRO HAUTES TERRES",
-    "brand": "Kaiyi",
-    "edition": "1.6TGDI Turbo 197 ch · Boîte Automatique 7DCT 2026",
-    "priceFrom": "11 500 000 FCFA",
-    "priceCIF": "10 000 000 FCFA (Coût + Assurance + Fret inclus)",
-    "category": "compact",
-    "categoryLabel": "Grand SUV Familial",
-    "badge": "Grand SUV Familial 197 ch",
-    "images": [
-      "assets/images/cars/kaiyi-x7-pro-terres/photo-1.jpg",
-      "assets/images/cars/kaiyi-x7-pro-terres/photo-2.jpg",
-      "assets/images/cars/kaiyi-x7-pro-terres/photo-3.jpg"
-    ],
-    "stats": {
-      "accel": "8.9 s",
-      "power": "197 ch / 290 N·m",
-      "speed": "195 km/h",
-      "autonomy": "7.3 L / 100 km (Mixte)"
-    },
-    "reasons": [
-      "Prix plancher de 10 Millions FCFA pour un grand SUV neuf 0 km de 197 ch.",
-      "Même moteur 1.6T Turbo fiable et boîte automatique 7 rapports.",
-      "Toit ouvrant panoramique XXL et habitacle familial spacieux.",
-      "Suspension renforcée spécialement tarée pour les conditions de route difficiles."
-    ],
-    "fullSpecs": [
-      {
-        "label": "Modèle",
-        "val": "Kaiyi X7 Pro 2026 Édition Hautes Terres"
-      },
-      {
-        "label": "Carrosserie",
-        "val": "Grand SUV · 5 Portes · 5 Places"
-      },
-      {
-        "label": "Moteur",
-        "val": "1.6T Turbo Essence (197 ch / 290 N·m)"
-      },
-      {
-        "label": "Boîte de vitesses",
-        "val": "Automatique 7DCT"
-      },
-      {
-        "label": "Dimensions (L×l×H)",
-        "val": "4 710 × 1 890 × 1 705 mm"
-      },
-      {
-        "label": "Empattement",
-        "val": "2 745 mm"
-      },
-      {
-        "label": "Garde au sol",
-        "val": "185 mm"
-      },
-      {
-        "label": "Consommation",
-        "val": "7,3 L / 100 km"
-      },
-      {
-        "label": "Équipements",
-        "val": "Écran tactile 12.3 pouces · Caméra de recul · Radar"
-      },
-      {
-        "label": "Pneumatiques",
-        "val": "235/60 R18 · Jantes alliage"
-      }
-    ]
+    "fullSpecs": {
+      "Dimensions": "4 400 × 1 831 × 1 653 mm",
+      "Moteur": "1.5L Essence Atmosphérique (116 ch)",
+      "Transmission": "Boîte automatique séquentielle CVT"
+    }
   },
   "swm-sawy-tiger": {
     "id": "swm-sawy-tiger",
     "name": "SWM SAWY TIGER LUXE",
     "brand": "SWM",
-    "edition": "1.5L Essence 116 ch · Édition Luxe 7 Places 2025",
+    "edition": "7 Vraies Places Économique · Modèle 2025",
     "priceFrom": "7 600 000 FCFA",
-    "priceCIF": "7 600 000 FCFA (Coût + Assurance + Fret inclus)",
+    "priceCIF": "7 600 000 FCFA",
     "category": "familial",
-    "categoryLabel": "Grand SUV 7 Places Familial",
-    "badge": "7 Places Ultra-Accessible",
+    "categoryLabel": "Grand SUV Familial 7 Places",
+    "badge": "7 Places dès 7.6M FCFA",
     "images": [
       "assets/images/cars/swm-sawy-tiger/photo-1.png",
       "assets/images/cars/swm-sawy-tiger/photo-2.png",
@@ -846,103 +351,22 @@ const VEHICLES_DATABASE = {
     ],
     "stats": {
       "accel": "11.2 s",
-      "power": "116 ch (85 kW)",
+      "power": "116 ch",
       "speed": "165 km/h",
-      "autonomy": "6.9 L / 100 km (Mixte)"
+      "autonomy": "720 km autonomie"
     },
     "reasons": [
-      "Le grand SUV 7 places neuf 0 km le plus accessible du marché en export direct d'usine.",
-      "Moteur 1.5L atmosphérique 116 ch robuste, économique et compatible avec tous carburants standards.",
-      "Véritable habitacle 7 places modulable avec climatisation arrière indépendante.",
-      "Garde au sol de 180 mm idéale pour affronter tous les profils de chaussées et pistes.",
-      "Entretien mécanique simple et grande facilité d'approvisionnement en pièces de rechange."
+      "7 vraies places modulables à un tarif imbattable sous les 8 millions FCFA.",
+      "Double climatisation avant et arrière avec diffuseurs indépendants au pavillon.",
+      "Châssis et suspension renforcés pour les routes difficiles.",
+      "Volume de chargement généreux jusqu'à 1 560 litres.",
+      "Excellent choix pour les familles nombreuses et les activités de transport."
     ],
-    "fullSpecs": [
-      {
-        "label": "Modèle",
-        "val": "SWM Sawy Tiger 2025 Édition Luxe"
-      },
-      {
-        "label": "Constructeur",
-        "val": "SWM Motors (Shineray Group)"
-      },
-      {
-        "label": "Carrosserie",
-        "val": "Grand SUV 5 Portes · 7 Places (2+3+2)"
-      },
-      {
-        "label": "Motorisation",
-        "val": "1.5L Essence 4 cylindres DOHC 16 soupapes"
-      },
-      {
-        "label": "Cylindrée",
-        "val": "1 498 cm³"
-      },
-      {
-        "label": "Puissance max",
-        "val": "116 ch (85 kW) à 6 000 tr/min"
-      },
-      {
-        "label": "Couple max",
-        "val": "152 N·m à 4 000 tr/min"
-      },
-      {
-        "label": "Boîte de vitesses",
-        "val": "Manuelle 5 rapports renforcée"
-      },
-      {
-        "label": "Transmission",
-        "val": "Traction avant (FWD)"
-      },
-      {
-        "label": "Consommation mixte",
-        "val": "6,9 L / 100 km"
-      },
-      {
-        "label": "Réservoir",
-        "val": "50 Litres"
-      },
-      {
-        "label": "Dimensions (L×l×H)",
-        "val": "4 605 × 1 815 × 1 810 mm"
-      },
-      {
-        "label": "Empattement",
-        "val": "2 780 mm"
-      },
-      {
-        "label": "Garde au sol",
-        "val": "180 mm (Rehaussée)"
-      },
-      {
-        "label": "Volume du coffre",
-        "val": "680 L (jusqu'à 1 560 L sièges rabattus)"
-      },
-      {
-        "label": "Poids à vide",
-        "val": "1 460 kg"
-      },
-      {
-        "label": "Suspensions",
-        "val": "Avant MacPherson / Arrière Essieu rigide renforcé"
-      },
-      {
-        "label": "Freinage",
-        "val": "4 Disques avec ABS + EBD"
-      },
-      {
-        "label": "Multimédia",
-        "val": "Écran tactile 10.25\" HD · Bluetooth · Caméra de recul"
-      },
-      {
-        "label": "Climatisation",
-        "val": "Double climatisation avant / arrière avec diffuseurs de toit"
-      },
-      {
-        "label": "Pneumatiques",
-        "val": "215/60 R17 · Jantes aluminium diamantées"
-      }
-    ]
+    "fullSpecs": {
+      "Dimensions": "4 605 × 1 815 × 1 810 mm",
+      "Places": "7 places (Configuration 2+3+2)",
+      "Moteur": "1.5L Essence 4 cylindres DOHC (116 ch)"
+    }
   }
 };
 
@@ -1096,7 +520,7 @@ function initVehiculeDetailPage() {
   if (!car) return;
 
   // Mettre à jour le titre du document et le fil d'Ariane
-  document.title = `${car.name} — Fiche Technique & Équipements | KH-AUTO`;
+  document.title = `${car.name} — Fiche Technique & Équipements | AFRIK AUTO`;
   if (bcName) bcName.textContent = car.name;
   if (directQuoteInput) directQuoteInput.value = `${car.name} (${car.priceFrom})`;
 
@@ -1129,7 +553,7 @@ function initVehiculeDetailPage() {
 
         <!-- Boutons d'action -->
         <div class="dp-actions-stacked">
-          <a href="https://wa.me/22996175591?text=${encodeURIComponent('Bonjour KH-AUTO, je souhaite commander le véhicule : ' + car.name + ' (' + car.priceFrom + '). Pouvez-vous me préciser les étapes de commande et de livraison ?')}" target="_blank" class="dp-btn-whatsapp">
+          <a href="https://wa.me/22969818171?text=${encodeURIComponent('Bonjour AFRIK AUTO, je souhaite commander le véhicule : ' + car.name + ' (' + car.priceFrom + '). Pouvez-vous me préciser les étapes de commande et de livraison ?')}" target="_blank" class="dp-btn-whatsapp">
             <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.97.53 1.764.813 2.796.813h.005c3.18 0 5.767-2.586 5.768-5.766 0-1.54-.6-2.988-1.688-4.077-1.09-1.088-2.538-1.683-4.085-1.683zm6.671 9.85c-.278.78-1.378 1.438-1.905 1.528-.488.083-1.119.123-3.238-.755-2.71-1.122-4.474-3.864-4.609-4.043-.135-.18-1.099-1.464-1.099-2.793 0-1.328.694-1.982.94-2.25.247-.267.537-.334.717-.334.18 0 .36.002.518.01.168.008.393-.064.615.47.228.549.775 1.892.843 2.03.067.137.112.3.023.479-.09.18-.135.292-.27.45-.135.157-.283.351-.404.471-.135.134-.275.28-.118.55.157.269.697 1.15 1.493 1.86 1.026.914 1.89 1.196 2.16 1.33.27.135.427.113.584-.067.158-.18.674-.786.854-1.055.18-.27.36-.225.607-.135.247.09 1.572.741 1.841.876.27.135.45.202.517.315.067.112.067.651-.211 1.431zM12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.98-1.306A9.957 9.957 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
             COMMANDER SUR WHATSAPP
           </a>
@@ -1181,12 +605,10 @@ function initVehiculeDetailPage() {
           <div class="dp-tech-table-wrap">
             <table class="dp-tech-table">
               <tbody>
-                ${car.fullSpecs.map(s => `
-                  <tr>
-                    <th class="dp-dt-key">${s.label}</th>
-                    <td class="dp-dt-val">${s.val}</td>
-                  </tr>
-                `).join('')}
+                ${(Array.isArray(car.fullSpecs) 
+                    ? car.fullSpecs.map(s => '<tr><th class="dp-dt-key">' + s.label + '</th><td class="dp-dt-val">' + s.val + '</td></tr>')
+                    : Object.entries(car.fullSpecs || {}).map(([k, v]) => '<tr><th class="dp-dt-key">' + k + '</th><td class="dp-dt-val">' + v + '</td></tr>')
+                  ).join('')}
               </tbody>
             </table>
           </div>
@@ -1271,7 +693,7 @@ function initVehiculeDetailPage() {
         </div>
         <div class="model-card-footer">
           <a href="vehicule.html?id=${rc.id}" class="model-link">DÉTAILS &gt;</a>
-          <a href="https://wa.me/22996175591?text=${encodeURIComponent('Bonjour KH-AUTO, je souhaite commander le véhicule : ' + rc.name + ' (' + rc.priceFrom + ')')}" target="_blank" class="btn-card-order-wa" onclick="event.stopPropagation();">COMMANDER</a>
+          <a href="https://wa.me/22969818171?text=${encodeURIComponent('Bonjour AFRIK AUTO, je souhaite commander le véhicule : ' + rc.name + ' (' + rc.priceFrom + ')')}" target="_blank" class="btn-card-order-wa" onclick="event.stopPropagation();">COMMANDER</a>
         </div>
       </div>
     `).join('');
@@ -1294,7 +716,7 @@ function initVehiculeDetailPage() {
       }
 
       vFeedback.className = 'form-feedback success';
-      vFeedback.textContent = `✓ Merci ${name} ! Votre demande de devis pour le ${car.name} a été enregistrée avec succès. Un conseiller KH-AUTO vous contactera sous 2 heures.`;
+      vFeedback.textContent = `✓ Merci ${name} ! Votre demande de devis pour le ${car.name} a été enregistrée avec succès. Un conseiller AFRIK AUTO vous contactera sous 2 heures.`;
       vForm.reset();
       if (directQuoteInput) directQuoteInput.value = `${car.name} (${car.priceFrom})`;
 
@@ -1347,7 +769,7 @@ function initCataloguePage() {
             <a href="vehicule.html?id=${car.id}" class="btn btn-secondary btn-card-details">
               DÉTAILS &gt;
             </a>
-            <a href="https://wa.me/22996175591?text=${encodeURIComponent('Bonjour KH-AUTO, je souhaite commander le véhicule : ' + car.name + ' (' + car.priceFrom + ')')}" target="_blank" class="btn-card-order-wa-full">
+            <a href="https://wa.me/22969818171?text=${encodeURIComponent('Bonjour AFRIK AUTO, je souhaite commander le véhicule : ' + car.name + ' (' + car.priceFrom + ')')}" target="_blank" class="btn-card-order-wa-full">
               COMMANDER
             </a>
           </div>
@@ -1407,7 +829,7 @@ function initHomePage() {
       }
 
       quoteFeedback.className = 'form-feedback success';
-      quoteFeedback.textContent = `✓ Merci ${name} ! Votre demande de devis pour le ${vehicle} a bien été enregistrée. Un conseiller commercial KH-AUTO vous contactera sous 2 heures ouvrées.`;
+      quoteFeedback.textContent = `✓ Merci ${name} ! Votre demande de devis pour le ${vehicle} a bien été enregistrée. Un conseiller commercial AFRIK AUTO vous contactera sous 2 heures ouvrées.`;
       
       quoteForm.reset();
       

@@ -1,0 +1,252 @@
+================================================================================
+                    KH-AUTO - CATALOGUE OFFICIEL DES VÉHICULES
+                   LISTE COMPLÈTE DU PARC AUTOMOBILE DISPONIBLE
+================================================================================
+Date de mise à jour : 09/09/2026
+Nombre total de véhicules : 10 modèles neufs 0 km
+Origine : Importation directe constructeur (Chine) - Climat Tropicalisé
+Tarifs : Prix TTC à partir de & Tarifs CIF (Coût, Assurance, Fret inclus)
+
+
+================================================================================
+RÉCAPITULATIF RAPIDE DU PARC AUTOMOBILE
+================================================================================
+1. CHANGAN UNI-Z PHEV          | Hybride Rechargeable | 218 ch | Dès 12 900 000 FCFA
+2. CHERY TIGGO 8 PRO PHEV      | Hybride 7 Places     | 326 ch | Dès 13 800 000 FCFA
+3. GEELY COWBOY OFF ROAD       | Baroudeur Aventure   | 181 ch | Dès 11 200 000 FCFA
+4. GEELY COWBOY TRENDY         | SUV Urbain Aventure  | 181 ch | Dès 10 750 000 FCFA
+5. GEELY GALAXY L7             | Hybride EM-i Luxe    | 218 ch | Dès 13 500 000 FCFA
+6. KAIYI X3 PRO LUXE           | SUV Urbain Éco       | 116 ch | Dès  7 900 000 FCFA
+7. KAIYI X7 PRO (7 PLACES)     | Grand SUV Familial   | 197 ch | Dès 12 600 000 FCFA
+8. KAIYI X7 PRO MOUNTAIN       | Grand SUV Statutaire | 197 ch | Dès 11 900 000 FCFA
+9. KAIYI X7 PRO HAUTES TERRES  | Grand SUV Familial   | 197 ch | Dès 11 500 000 FCFA
+10. SWM SAWY TIGER LUXE        | 7 Places Accessible  | 116 ch | Dès  7 600 000 FCFA
+
+
+================================================================================
+FICHES DÉTAILLÉES PAR VÉHICULE
+================================================================================
+
+--------------------------------------------------------------------------------
+1. CHANGAN UNI-Z PHEV (Édition Vaisseau 2026)
+--------------------------------------------------------------------------------
+- Identifiant dossier : changan-uni-z-phev
+- Marque : Changan Automobile (长安汽车)
+- Catégorie : SUV Compact Futuriste / Hybride Rechargeable
+- Places : 5 places
+- Prix TTC : À partir de 12 900 000 FCFA
+- Prix CIF : 11 700 000 FCFA (Coût + Assurance + Fret maritime inclus)
+- Motorisation : 1.5L Atmosphérique 4 cylindres + Moteur électrique synchrone ATDM68
+- Boîte de vitesses : E-CVT (Transmission électronique à variation continue)
+- Puissance combinée : 160 kW / 218 ch
+- Couple combiné : 251 N·m
+- Accélération 0-100 km/h : 7.4 s
+- Vitesse maximale : 180 km/h
+- Autonomie 100% Électrique : 130 km (Norme CLTC)
+- Autonomie totale combinée : 1 200 km
+- Consommation : 1,3 L / 100 km (WLTC) · 3,06 L / 100 km en mode combiné
+- Dimensions (L × l × H) : 4 730 × 1 890 × 1 680 mm (Empattement : 2 795 mm)
+- Garde au sol : 183 mm (Renforcée)
+- Volume du coffre : 638 L (jusqu'à 1 425 L)
+- Équipements clés : Cockpit digital 14.6", toit panoramique ouvrant, ADAS L2 Tianshu, caméras 540°, recharge rapide DC (30% à 80% en 15 min).
+- Image associée : premieres_images_vehicules/changan-uni-z-phev.jpg
+
+--------------------------------------------------------------------------------
+2. CHERY TIGGO 8 PRO PHEV (Édition Champion 7 Places 2026)
+--------------------------------------------------------------------------------
+- Identifiant dossier : chery-tiggo-8-pro-phev
+- Marque : Chery Automobile (奇瑞汽车)
+- Catégorie : Grand SUV Prestige 7 Places / Hybride Rechargeable
+- Places : 7 places (Configuration 2+3+2)
+- Prix TTC : À partir de 13 800 000 FCFA
+- Prix CIF : 13 500 000 FCFA (Coût + Assurance + Fret maritime inclus)
+- Motorisation : 1.5T Turbo Essence + Double Moteur Électrique Synchrone
+- Boîte de vitesses : DHT 3 rapports hybride dédiée
+- Puissance combinée : 240 kW / 326 ch
+- Couple combiné : 545 N·m
+- Accélération 0-100 km/h : 7.0 s
+- Vitesse maximale : 180 km/h
+- Autonomie 100% Électrique : 100 km (Norme CLTC)
+- Autonomie totale combinée : 1 050 km
+- Consommation : 1,7 L / 100 km (WLTC) · 5,5 L / 100 km batterie déchargée
+- Dimensions (L × l × H) : 4 745 × 1 860 × 1 747 mm (Empattement : 2 710 mm)
+- Garde au sol : 185 mm
+- Volume du coffre : 889 L (jusqu'à 1 930 L banquettes rabattues)
+- Équipements clés : Sellerie cuir grand luxe chauffante et massante, puce Qualcomm Snapdragon 8155, 10 airbags, pack ADAS L2+, caméras 360°, charge rapide 25 min.
+- Image associée : premieres_images_vehicules/chery-tiggo-8-pro-phev.png
+
+--------------------------------------------------------------------------------
+3. GEELY COWBOY OFF ROAD (Édition Aventure Tout-Terrain 2025)
+--------------------------------------------------------------------------------
+- Identifiant dossier : geely-cowboy-offroad
+- Marque : Geely Auto Group (吉利汽车)
+- Catégorie : SUV Compact Baroudeur / Tout-Terrain
+- Places : 5 places
+- Prix TTC : À partir de 11 200 000 FCFA
+- Prix CIF : 11 200 000 FCFA (Coût + Assurance + Fret maritime inclus)
+- Motorisation : 1.5TD Turbo Essence Injection Directe 4 cylindres (1 499 cm³)
+- Boîte de vitesses : Automatique 7DCT Double Embrayage humide
+- Puissance max : 181 ch (133 kW) à 5 500 tr/min
+- Couple max : 290 N·m de 2 000 à 3 500 tr/min
+- Accélération 0-100 km/h : 7.9 s
+- Vitesse maximale : 190 km/h
+- Consommation mixte : 6,8 L / 100 km
+- Dimensions (L × l × H) : 4 442 × 1 860 × 1 770 mm (Empattement : 2 640 mm)
+- Garde au sol : 190 mm (Pack Tout-Terrain Rehaussé)
+- Volume du coffre : 515 L (jusqu'à 1 200 L)
+- Équipements clés : Galerie de toit alu tout-terrain, projecteurs spot LED longue portée intégrés, sabots de protection AV/AR, cockpit 14.6" Flyme Auto, pneus Tout-Terrain AT 225/55 R18, caméras 540°.
+- Image associée : premieres_images_vehicules/geely-cowboy-offroad.png
+
+--------------------------------------------------------------------------------
+4. GEELY COWBOY TRENDY (Édition Urbaine 2025)
+--------------------------------------------------------------------------------
+- Identifiant dossier : geely-cowboy-trendy
+- Marque : Geely Auto Group (吉利汽车)
+- Catégorie : SUV Urbain Baroudeur & Chic
+- Places : 5 places
+- Prix TTC : À partir de 10 750 000 FCFA
+- Prix CIF : 10 750 000 FCFA (Coût + Assurance + Fret maritime inclus)
+- Motorisation : 1.5TD Turbo Essence 4 cylindres
+- Boîte de vitesses : Automatique 7DCT Double Embrayage
+- Puissance max : 181 ch (133 kW) / 290 N·m
+- Accélération 0-100 km/h : 7.9 s
+- Vitesse maximale : 190 km/h
+- Consommation mixte : 6,6 L / 100 km
+- Dimensions (L × l × H) : 4 360 × 1 830 × 1 670 mm
+- Garde au sol : 180 mm
+- Équipements clés : Cockpit numérique 10.25", écran central 14.6", toit ouvrant, jantes alliage 18", sellerie confort, insonorisation acoustique renforcée.
+- Image associée : premieres_images_vehicules/geely-cowboy-trendy.png
+
+--------------------------------------------------------------------------------
+5. GEELY GALAXY L7 (Édition Explorer Hypermile 2025)
+--------------------------------------------------------------------------------
+- Identifiant dossier : geely-galaxy-l7
+- Marque : Geely Auto (吉利银河)
+- Catégorie : SUV Compact Futuriste / Hybride Rechargeable EM-i
+- Places : 5 places
+- Prix TTC : À partir de 13 500 000 FCFA
+- Prix CIF : 13 000 000 FCFA (Coût + Assurance + Fret maritime inclus)
+- Motorisation : 1.5L NordThor Hybride 4 cylindres (Efficacité thermique 46,5%)
+- Boîte de vitesses : DHT 1 vitesse hybride dédiée
+- Puissance combinée : 160 kW / 218 ch
+- Couple combiné : 338 N·m
+- Accélération 0-100 km/h : 7.5 s
+- Vitesse maximale : 178 km/h
+- Autonomie 100% Électrique : 115 km (Norme CLTC)
+- Autonomie totale combinée : 1 370 km
+- Consommation mixte : 2,67 L / 100 km
+- Dimensions (L × l × H) : 4 700 × 1 905 × 1 685 mm (Empattement : 2 785 mm)
+- Garde au sol : 175 mm
+- Équipements clés : Triple écran HD (10.25" compteur + 13.2" central + 16.2" passager), puce Qualcomm Snapdragon 8155, sièges Queen Seat avec repose-jambes électrique et massage, jantes turbine 19".
+- Image associée : premieres_images_vehicules/geely-galaxy-l7.jpg
+
+--------------------------------------------------------------------------------
+6. KAIYI X3 PRO LUXE (Modèle 2025 Boîte Automatique)
+--------------------------------------------------------------------------------
+- Identifiant dossier : kaiyi-x3-pro
+- Marque : Kaiyi Auto (Yibin Kaiyi Automobile / Partenaire Chery)
+- Catégorie : SUV Compact Urbain Automatique Économique
+- Places : 5 places
+- Prix TTC : À partir de 7 900 000 FCFA
+- Prix CIF : 7 650 000 FCFA (Coût + Assurance + Fret maritime inclus)
+- Motorisation : 1.5L Essence atmosphérique 4 cylindres
+- Boîte de vitesses : Automatique CVT (Variation continue séquentielle)
+- Puissance max : 116 ch (85 kW) à 6 150 tr/min
+- Couple max : 143 N·m à 4 000 tr/min
+- Accélération 0-100 km/h : 10.5 s
+- Vitesse maximale : 175 km/h
+- Consommation mixte : 6,7 L / 100 km
+- Dimensions (L × l × H) : 4 400 × 1 831 × 1 653 mm (Empattement : 2 632 mm)
+- Garde au sol : 170 mm
+- Volume du coffre : 480 L (jusqu'à 1 100 L)
+- Équipements clés : Écran multimédia tactile 10.25", caméra de recul, connectivité smartphone, climatisation, jantes alu 17", tarif le plus accessible du marché en SUV automatique neuf.
+- Image associée : premieres_images_vehicules/kaiyi-x3-pro.png
+
+--------------------------------------------------------------------------------
+7. KAIYI X7 PRO (7 PLACES) (Édition 2026)
+--------------------------------------------------------------------------------
+- Identifiant dossier : kaiyi-x7-pro-7places
+- Marque : Kaiyi Auto (Yibin Kaiyi Automobile)
+- Catégorie : Grand SUV 7 Places Familial
+- Places : 7 vraies places (2+3+2)
+- Prix TTC : À partir de 12 600 000 FCFA
+- Prix CIF : 10 800 000 FCFA (Coût + Assurance + Fret maritime inclus)
+- Motorisation : 1.6T Turbo Essence ACTECO Injection Directe
+- Boîte de vitesses : Automatique 7DCT Double Embrayage
+- Puissance max : 197 ch / 290 N·m
+- Accélération 0-100 km/h : 8.2 s
+- Vitesse maximale : 200 km/h
+- Consommation mixte : 7,3 L / 100 km
+- Dimensions (L × l × H) : 4 710 × 1 890 × 1 705 mm (Empattement : 2 745 mm)
+- Garde au sol : 185 mm
+- Volume du coffre : 450 L en configuration 7 places (jusqu'à 1 500 L)
+- Équipements clés : 3 rangées de sièges modulables, climatisation arrière indépendante avec buses aux rangées 2 & 3, double écran digital, toit panoramique ouvrant, caméras 360°, jantes 19".
+- Image associée : premieres_images_vehicules/kaiyi-x7-pro-7places.jpg
+
+--------------------------------------------------------------------------------
+8. KAIYI X7 PRO MOUNTAIN (Édition Statutaire 2026)
+--------------------------------------------------------------------------------
+- Identifiant dossier : kaiyi-x7-pro-mountain
+- Marque : Kaiyi Auto (Yibin Kaiyi Automobile)
+- Catégorie : Grand SUV Statutaire 5 Places
+- Places : 5 grandes places
+- Prix TTC : À partir de 11 900 000 FCFA
+- Prix CIF : 10 750 000 FCFA (Coût + Assurance + Fret maritime inclus)
+- Motorisation : 1.6T Turbo Essence Injection Directe ACTECO (1 598 cm³)
+- Boîte de vitesses : Automatique 7DCT Double Embrayage humide
+- Puissance max : 197 ch (145 kW) à 5 500 tr/min
+- Couple max : 290 N·m de 2 000 à 4 000 tr/min
+- Accélération 0-100 km/h : 8.2 s
+- Vitesse maximale : 195 km/h
+- Consommation mixte : 7,3 L / 100 km (Réservoir : 55 L)
+- Dimensions (L × l × H) : 4 710 × 1 890 × 1 705 mm (Empattement : 2 745 mm)
+- Garde au sol : 185 mm (Renforcée)
+- Volume du coffre : 580 L (jusqu'à 1 450 L)
+- Équipements clés : Calandre cascade chromée imposante, double écran 12.3" HD, toit panoramique, caméras 360°, démarrage sans clé, sellerie cuir grand confort, jantes sport alu 19".
+- Image associée : premieres_images_vehicules/kaiyi-x7-pro-mountain.jpg
+
+--------------------------------------------------------------------------------
+9. KAIYI X7 PRO HAUTES TERRES (Édition 2026)
+--------------------------------------------------------------------------------
+- Identifiant dossier : kaiyi-x7-pro-terres
+- Marque : Kaiyi Auto (Yibin Kaiyi Automobile)
+- Catégorie : Grand SUV Familial 5 Places
+- Places : 5 places
+- Prix TTC : À partir de 11 500 000 FCFA
+- Prix CIF : 10 000 000 FCFA (Coût + Assurance + Fret maritime inclus)
+- Motorisation : 1.6T Turbo Essence ACTECO (197 ch / 290 N·m)
+- Boîte de vitesses : Automatique 7DCT Double Embrayage
+- Accélération 0-100 km/h : 8.9 s
+- Vitesse maximale : 195 km/h
+- Consommation mixte : 7,3 L / 100 km
+- Dimensions (L × l × H) : 4 710 × 1 890 × 1 705 mm (Empattement : 2 745 mm)
+- Garde au sol : 185 mm (Suspension tarée routes difficiles)
+- Volume du coffre : 580 L
+- Équipements clés : Grand écran tactile 12.3", toit ouvrant panoramique XXL, caméra de recul & radars, jantes alliage 18", rapport gabarit/puissance/prix imbattable à 10M FCFA CIF.
+- Image associée : premieres_images_vehicules/kaiyi-x7-pro-terres.jpg
+
+--------------------------------------------------------------------------------
+10. SWM SAWY TIGER LUXE (Édition 7 Places 2025)
+--------------------------------------------------------------------------------
+- Identifiant dossier : swm-sawy-tiger
+- Marque : SWM Motors (Shineray Group / Brilliance)
+- Catégorie : Grand SUV Familial 7 Places
+- Places : 7 places (Configuration 2+3+2)
+- Prix TTC : À partir de 7 600 000 FCFA
+- Prix CIF : 7 600 000 FCFA (Coût + Assurance + Fret maritime inclus)
+- Motorisation : 1.5L Essence 4 cylindres DOHC 16 soupapes (1 498 cm³)
+- Boîte de vitesses : Manuelle 5 rapports renforcée
+- Puissance max : 116 ch (85 kW) à 6 000 tr/min
+- Couple max : 152 N·m à 4 000 tr/min
+- Accélération 0-100 km/h : 11.2 s
+- Vitesse maximale : 165 km/h
+- Consommation mixte : 6,9 L / 100 km (Réservoir : 50 L)
+- Dimensions (L × l × H) : 4 605 × 1 815 × 1 810 mm (Empattement : 2 780 mm)
+- Garde au sol : 180 mm (Rehaussée)
+- Volume du coffre : 680 L (jusqu'à 1 560 L)
+- Équipements clés : Vrai 7 places le plus économique du marché, double climatisation avant/arrière avec diffuseurs au pavillon, écran tactile 10.25" HD, Bluetooth, caméra de recul, châssis et essieu arrière renforcés.
+- Image associée : premieres_images_vehicules/swm-sawy-tiger.png
+
+================================================================================
+FIN DU DOCUMENT - KH-AUTO
+================================================================================

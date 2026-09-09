@@ -1,12 +1,12 @@
 /* ==========================================================================
-   VOLTSPRINT MOTORS — PREMIUM CHINESE EV & HYBRID DEALERSHIP
+   AFRIK AUTO — VENTE, ACHAT & LOCATION DE VÉHICULES DE TOUS TYPES
    Pixel-Accurate Automotive Dealership Style System
    ========================================================================== */
 
 :root {
   /* Brand Colors */
-  --color-volt-lime: #c8f802;
-  --color-volt-lime-hover: #b6e200;
+  --color-volt-lime: #22c55e;
+  --color-volt-lime-hover: #16a34a;
   --color-volt-dark: #0a0a0c;
   --color-dark-bg: #09090b;
   --color-footer-bg: #0c0d0f;
@@ -18,7 +18,7 @@
   --text-secondary: #525866;
   --text-muted: #8a919e;
   --text-white: #ffffff;
-  --text-lime-badge: #84b800;
+  --text-lime-badge: #15803d;
   
   /* Borders & Dividers */
   --border-light: #eceef2;
@@ -31,7 +31,7 @@
   
   /* Spacing & Sizes */
   --container-max-width: 1200px;
-  --header-height: 72px;
+  --header-height: 80px;
   --radius-sm: 4px;
   --radius-md: 8px;
   --radius-lg: 12px;
@@ -267,7 +267,7 @@ button {
 .btn-primary:hover, .btn-reserve:hover {
   background-color: var(--color-volt-lime-hover);
   transform: translateY(-1px);
-  box-shadow: 0 4px 14px rgba(200, 248, 2, 0.4);
+  box-shadow: 0 4px 14px rgba(34, 197, 94, 0.4);
 }
 
 .btn-secondary {
@@ -377,7 +377,7 @@ button {
 }
 
 .logo-accent {
-  color: #8bb500;
+  color: #22c55e;
 }
 
 .logo-tag {
@@ -394,21 +394,41 @@ button {
 .main-nav .nav-list {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 20px;
 }
 
 .nav-link {
   font-family: var(--font-heading);
-  font-size: 0.76rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
   color: #262930;
   position: relative;
-  padding: 8px 0;
+  padding: 6px 2px;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2.5px;
+  background-color: #22c55e;
+  border-radius: 2px;
+  transition: width 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover {
-  color: #000000;
+  color: #0a0a0c;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
 }
 
 .header-actions {
@@ -418,9 +438,11 @@ button {
 }
 
 .btn-reserve {
-  padding: 10px 22px;
-  font-size: 0.74rem;
-  letter-spacing: 0.07em;
+  padding: 10px 18px;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  white-space: nowrap;
 }
 
 .mobile-menu-toggle {
@@ -551,7 +573,7 @@ button {
   font-weight: 800;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #84b800;
+  color: #22c55e;
   margin-bottom: 10px;
 }
 
@@ -570,7 +592,7 @@ button {
 }
 
 .hero-title .text-accent {
-  color: #c8f802;
+  color: #22c55e;
   -webkit-text-stroke: 0.8px rgba(0, 0, 0, 0.12);
 }
 
@@ -723,7 +745,7 @@ button {
 }
 
 .lineup-header-left .section-badge {
-  color: #84b800;
+  color: #22c55e;
   font-family: var(--font-heading);
   font-size: 0.75rem;
   font-weight: 800;
@@ -769,7 +791,7 @@ button {
 }
 
 .view-all-link:hover {
-  color: #84b800;
+  color: #22c55e;
   transform: translateX(2px);
 }
 
@@ -972,7 +994,7 @@ button {
   align-items: center;
   gap: 6px;
   background-color: #111317;
-  color: #c8f802;
+  color: #22c55e;
   font-family: var(--font-heading);
   font-size: 0.72rem;
   font-weight: 800;
@@ -1009,7 +1031,7 @@ button {
   justify-content: center;
   gap: 6px;
   background-color: #111317;
-  color: #c8f802;
+  color: #22c55e;
   font-family: var(--font-heading);
   font-size: 0.76rem;
   font-weight: 800;
@@ -1064,7 +1086,7 @@ button {
 }
 
 .about-main-title .text-accent-brand {
-  color: #76a500;
+  color: #22c55e;
 }
 
 .about-lead-paragraph {
@@ -1081,7 +1103,7 @@ button {
 
 .about-quote-box {
   background-color: #f6fae9;
-  border-left: 4px solid #84b800;
+  border-left: 4px solid #22c55e;
   border-radius: 8px;
   padding: 20px 24px;
   box-shadow: 0 4px 16px rgba(132, 184, 0, 0.08);
@@ -1199,7 +1221,7 @@ button {
   align-items: center;
   justify-content: flex-start;
   margin-bottom: 16px;
-  color: #84b800;
+  color: #22c55e;
 }
 
 .feature-svg {
@@ -1389,8 +1411,8 @@ button {
 }
 
 .testimonial-card.featured-testimonial {
-  border-color: #c8f802;
-  box-shadow: 0 8px 24px rgba(200, 248, 2, 0.12);
+  border-color: #22c55e;
+  box-shadow: 0 8px 24px rgba(34, 197, 94, 0.12);
 }
 
 .testimonial-rating {
@@ -1442,8 +1464,8 @@ button {
 }
 
 .featured-testimonial .author-avatar-initials {
-  border-color: #c8f802;
-  box-shadow: 0 4px 12px rgba(200, 248, 2, 0.2);
+  border-color: #22c55e;
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.2);
 }
 
 .testimonial-author-info {
@@ -1469,7 +1491,7 @@ button {
   font-family: var(--font-heading);
   font-size: 0.68rem;
   font-weight: 800;
-  color: #84b800;
+  color: #22c55e;
   text-transform: uppercase;
   margin-top: 4px;
   letter-spacing: 0.04em;
@@ -1500,7 +1522,7 @@ button {
 }
 
 .quote-card-container .section-badge {
-  color: #c8f802;
+  color: #22c55e;
 }
 
 .newsletter-title {
@@ -1569,8 +1591,8 @@ button {
 }
 
 .form-input:focus, .form-select:focus {
-  border-color: #c8f802;
-  box-shadow: 0 0 0 2px rgba(200, 248, 2, 0.3);
+  border-color: #22c55e;
+  box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.3);
 }
 
 .btn-quote-submit {
@@ -1579,7 +1601,7 @@ button {
   font-size: 0.82rem;
   letter-spacing: 0.06em;
   margin-top: 6px;
-  background-color: #c8f802;
+  background-color: #22c55e;
   color: #000000;
   font-weight: 800;
   border: none;
@@ -1589,8 +1611,8 @@ button {
 }
 
 .btn-quote-submit:hover {
-  background-color: #d8ff24;
-  box-shadow: 0 6px 20px rgba(200, 248, 2, 0.35);
+  background-color: #22c55e;
+  box-shadow: 0 6px 20px rgba(34, 197, 94, 0.35);
   transform: translateY(-2px);
 }
 
@@ -1648,7 +1670,7 @@ button {
 }
 
 .contact-item:hover {
-  border-color: #c8f802;
+  border-color: #22c55e;
   background-color: #0f1726;
   transform: translateX(3px);
 }
@@ -1656,7 +1678,7 @@ button {
 .contact-icon {
   width: 28px;
   height: 28px;
-  color: #c8f802;
+  color: #22c55e;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2008,7 +2030,7 @@ button {
     font-size: 0.72rem;
     font-weight: 800;
     letter-spacing: 0.06em;
-    color: #84b800;
+    color: #22c55e;
     display: block;
     text-align: center;
   }
@@ -2029,7 +2051,7 @@ button {
   }
 
   .hero-title .text-accent {
-    color: #c8f802;
+    color: #22c55e;
     -webkit-text-stroke: 0.8px rgba(0, 0, 0, 0.1);
   }
 
@@ -2256,7 +2278,7 @@ button {
     align-items: center;
     justify-content: center;
     background-color: #111317;
-    color: #c8f802;
+    color: #22c55e;
     font-family: var(--font-heading);
     font-size: 0.64rem;
     font-weight: 800;
@@ -2600,7 +2622,7 @@ button {
 .dp-thumb:hover {
   border-color: var(--color-volt-lime);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(200, 248, 2, 0.25);
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.25);
 }
 
 /* CIF Card */
@@ -2693,7 +2715,7 @@ button {
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #84b800;
+  color: #22c55e;
   margin-bottom: 6px;
 }
 
@@ -2895,7 +2917,7 @@ button {
   font-family: var(--font-heading);
   font-size: 1.1rem;
   font-weight: 900;
-  color: #84b800;
+  color: #22c55e;
   background-color: rgba(132, 184, 0, 0.12);
   padding: 4px 10px;
   border-radius: 6px;
@@ -3007,7 +3029,7 @@ button {
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #84b800;
+  color: #22c55e;
   margin-bottom: 4px;
 }
 
@@ -3244,7 +3266,7 @@ button {
 }
 
 .vehicule-quote-card .section-badge {
-  color: #c8f802;
+  color: #22c55e;
 }
 
 .vquote-header {
@@ -3397,7 +3419,7 @@ button {
     align-items: center;
     justify-content: center;
     background-color: #111317;
-    color: #c8f802;
+    color: #22c55e;
     font-family: var(--font-heading);
     font-size: 0.64rem;
     font-weight: 800;
@@ -3494,4 +3516,320 @@ button {
   .btn-card-details {
     font-size: 0.58rem;
   }
+}
+
+
+/* AFRIK AUTO Authentic Complete Logo (Icon + Original Text) */
+.brand-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 4px 0;
+}
+.site-logo-img {
+  height: 60px;
+  width: auto;
+  max-width: 140px;
+  object-fit: contain;
+  display: block;
+}
+.site-footer-logo-img {
+  height: 72px;
+  width: auto;
+  max-width: 160px;
+  object-fit: contain;
+  display: block;
+}
+
+
+/* ==========================================================================
+   AFRIK AUTO - INTERACTIVE ACHAT / VENTE / LOCATION WIDGET & SERVICES
+   ========================================================================== */
+
+.hero-action-widget-section {
+  position: relative;
+  margin-top: -45px;
+  z-index: 30;
+  padding-bottom: 40px;
+}
+
+.action-widget-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12), 0 2px 10px rgba(34, 197, 94, 0.08);
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  overflow: hidden;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.widget-tabs-nav {
+  display: flex;
+  background: #0d1117;
+  border-bottom: 2px solid #22c55e;
+}
+
+.widget-tab-btn {
+  flex: 1;
+  padding: 18px 24px;
+  border: none;
+  background: transparent;
+  color: #94a3b8;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.25s ease;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.widget-tab-btn:last-child {
+  border-right: none;
+}
+
+.widget-tab-btn:hover {
+  color: #ffffff;
+  background: rgba(34, 197, 94, 0.08);
+}
+
+.widget-tab-btn.active {
+  color: #101214;
+  background: #22c55e;
+  font-weight: 800;
+}
+
+.widget-tab-btn .tab-icon {
+  font-size: 1.25rem;
+}
+
+.widget-tab-pane {
+  display: none;
+  padding: 30px 36px;
+  background: #ffffff;
+}
+
+.widget-tab-pane.active {
+  display: block;
+}
+
+.widget-form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) 180px;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.widget-form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.widget-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #1e293b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.widget-input, .widget-select {
+  height: 48px;
+  padding: 0 14px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: #0f172a;
+  background: #f8fafc;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.widget-input:focus, .widget-select:focus {
+  border-color: #22c55e;
+  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.2);
+  background: #ffffff;
+}
+
+.widget-btn-submit {
+  height: 48px;
+  background: #22c55e;
+  color: #101214;
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 14px rgba(34, 197, 94, 0.35);
+}
+
+.widget-btn-submit:hover {
+  background: #16a34a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(34, 197, 94, 0.5);
+}
+
+@media (max-width: 900px) {
+  .hero-action-widget-section {
+    margin-top: 20px;
+  }
+  .widget-tabs-nav {
+    flex-direction: column;
+  }
+  .widget-form-grid {
+    grid-template-columns: 1fr;
+  }
+  .widget-tab-pane {
+    padding: 20px 16px;
+  }
+}
+
+
+/* ==========================================================================
+   QUOTE SECTION - 3-MODE INTERACTIVE SWITCHER (ACHAT / VENTE / LOCATION)
+   ========================================================================== */
+
+.quote-mode-switcher-wrap {
+  margin-bottom: 28px;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 16px 20px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.quote-mode-prompt {
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #22c55e;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.quote-mode-pills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.quote-mode-pill {
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #cbd5e1;
+  border: 1.5px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.quote-mode-pill:hover {
+  background: rgba(34, 197, 94, 0.12);
+  border-color: rgba(34, 197, 94, 0.4);
+  color: #ffffff;
+}
+
+.quote-mode-pill.active {
+  background: #22c55e;
+  border-color: #22c55e;
+  color: #0a0a0c;
+  font-weight: 800;
+  box-shadow: 0 4px 15px rgba(34, 197, 94, 0.35);
+}
+
+.quote-form-pane {
+  display: none;
+  animation: fadeInForm 0.3s ease-in-out;
+}
+
+.quote-form-pane.active {
+  display: block;
+}
+
+@keyframes fadeInForm {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 650px) {
+  .quote-mode-pills {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.main-nav {
+  margin-left: auto;
+  margin-right: 24px;
+}
+.brand-logo {
+  flex-shrink: 0;
+  margin-right: 30px;
+}
+
+
+/* ================= QUOTE HEADER COMPACT ACTION TABS ================= */
+.quote-header-actions {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 5px 6px;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  margin-top: 6px;
+}
+
+.quote-nav-tab {
+  padding: 8px 20px;
+  background: transparent;
+  color: #94a3b8;
+  border: 1px solid transparent;
+  border-radius: 9999px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  white-space: nowrap;
+  outline: none;
+}
+
+.quote-nav-tab:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.quote-nav-tab.active {
+  background: #22c55e !important;
+  border-color: #22c55e !important;
+  color: #0a0a0c !important;
+  font-weight: 800 !important;
+  box-shadow: 0 4px 15px rgba(34, 197, 94, 0.35) !important;
 }
