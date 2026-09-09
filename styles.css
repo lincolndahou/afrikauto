@@ -1130,7 +1130,7 @@ button {
 
 .charging-features-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   position: relative;
 }
@@ -2534,7 +2534,7 @@ button {
 
 .dp-thumbs-row {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 12px;
 }
 
@@ -2703,7 +2703,7 @@ button {
 /* 4 Metrics Matrix */
 .dp-specs-matrix {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 12px;
   margin-bottom: 28px;
 }
@@ -4123,7 +4123,7 @@ button {
 @media (min-width: 992px) {
   .testimonials-track {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
   .testimonial-duplicate {
